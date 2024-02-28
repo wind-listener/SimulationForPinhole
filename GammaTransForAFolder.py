@@ -1,5 +1,6 @@
-from PIL import Image
 import os
+
+from PIL import Image
 
 # 定义伽马值，这里选择一个大于1的值, 会提亮图片
 gamma = 2  # 可以根据需要调整伽马值
@@ -19,11 +20,10 @@ for image_name in image_names:
     img = Image.open(image_path)
 
     # 进行伽马变换
-    img_gamma = img.point(lambda x: x ** gamma)
+    img_gamma = img.point(lambda x: x**gamma)
 
     # 保存变换后的图片，替换原文件
     image_save_path = os.path.join(save_path, image_name)
     img_gamma.save(image_save_path)
 
 print("伽马变换完成")
-

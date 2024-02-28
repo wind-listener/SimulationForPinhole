@@ -1,15 +1,14 @@
-import matplotlib.pyplot as plt
 from PIL import Image
-import os
-gamma = 0.
-image_path ="10.bmp"
+
+gamma = 0.001
+image_path = "Dataset/ZZMImgs/forRegressionTrain/raw/ImagingDistance_225-ExposureTime_700-PowerdividedbyArea_757.5-Fnumber_1.4-Focal_8-CMOSPixelSize_2.4-CMOSQE_0.5.bmp"
 # 打开图片
 img = Image.open(image_path)
 
 # 进行伽马变换
-img_gamma = img.point(lambda x: x ** gamma)
+img_gamma = img.point(lambda x: x**gamma)
 
-image_save_path = "10_gamma.bmp"
+image_save_path = "Dataset/ZZMImgs/forRegressionTrain/raw/Gamma_ImagingDistance_225-ExposureTime_700-PowerdividedbyArea_757.5-Fnumber_1.4-Focal_8-CMOSPixelSize_2.4-CMOSQE_0.5.bmp"
 img_gamma.save(image_save_path)
 #
 # plt.subplot(121)

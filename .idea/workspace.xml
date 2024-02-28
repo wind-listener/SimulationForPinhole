@@ -5,11 +5,729 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10865f51-b0bd-42e2-999d-2e51167359c2" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/file.template.settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t10.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t12.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t9.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/SimulationForPinhole.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/ExperimentAnalysis-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/simulation-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AnalysisofAriyDisk.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CropImage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/FirstImgs/sample1.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/FirstImgs/sample1/sample11.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/FirstImgs/sample1/sample12.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/FirstImgs/sample1/sample13.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/FirstImgs/sample1big.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/FirstImgs/sample2.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/FirstImgs/sample2/sample21.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/FirstImgs/sample2/sample22.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/FirstImgs/sample2/sample23.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/FirstImgs/sample3.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/FirstImgs/sample3/sample31.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/FirstImgs/sample3/sample32.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/FirstImgs/sample3/sample33.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/1/0_23_0_23_20231015_095520390_1__0.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/1/0_23_0_23_20231015_095520390_1__1.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/1/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/1/110.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/1/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/1/210.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/1/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/1/310.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/1/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/1/410.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/1/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/1/516.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/1/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/1/610.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/1/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/1/710.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/1/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/1/813.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/1/wz.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/2/0_241_0_241_20231015_160839370_1__0.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/2/0_241_0_241_20231015_160839370_1__1.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/2/101.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/2/200.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/2/298.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/2/402.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/2/502.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/2/600.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/2/700.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/2/800.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/2/A1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/2/A2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/2/A3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/2/A4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/2/A5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/2/A6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/2/A7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/2/A8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/2/S1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/2/S2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/2/S3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/2/S4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/2/S5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/2/S6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/2/S7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/2/S8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/2/wz.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/tiny/分1/0_236_0_241_20230903_143033874_1_0_针孔_面积0.00mm2_横坐标0.55m_纵坐标673.17m.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/tiny/分1/0_236_0_241_20230903_143033874_1__0.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/tiny/分1/0_236_0_241_20230903_143033874_1__1.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/tiny/分1/0_236_0_241_20230903_143033874_1__2.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/tiny/分1/分1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/tiny/分3/0_419_0_420_20230903_155817931_2_0_针孔_面积0.01mm2_横坐标0.27m_纵坐标1013.12m.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/tiny/分3/0_419_0_420_20230903_155817931_2__0.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/tiny/分3/0_419_0_420_20230903_155817931_2__1.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/tiny/分3/0_419_0_420_20230903_155817931_2__2.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/tiny/分3/分3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/tiny/分4/0_1029_0_1030_20230903_162735901_2_0_针孔_面积0.01mm2_横坐标1.05m_纵坐标1196.35m.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/tiny/分4/0_1029_0_1030_20230903_162735901_2__0.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/tiny/分4/0_1029_0_1030_20230903_162735901_2__1.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/tiny/分4/0_1029_0_1030_20230903_162735901_2__2.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SecondImgs/tiny/分4/分4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/ExposureTimeus/Area Result of 700.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/ExposureTimeus/Area Result of 7000.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/ExposureTimeus/Area Result of 70000.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/ExposureTimeus/ImagingDistance_225-ExposureTime_700-PowerdividedbyArea_757.5-Fnumber_1.4-Focal_8-CMOSPixelSize_2.4-CMOSQE_0.5.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/ExposureTimeus/ImagingDistance_225-ExposureTime_7000-PowerdividedbyArea_757.5-Fnumber_1.4-Focal_8-CMOSPixelSize_2.4-CMOSQE_0.5.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/ExposureTimeus/ImagingDistance_225-ExposureTime_70000-PowerdividedbyArea_757.5-Fnumber_1.4-Focal_8-CMOSPixelSize_2.4-CMOSQE_0.5.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/ExposureTimeus/Result of 700.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/ExposureTimeus/Result of 7000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/ExposureTimeus/Result of 70000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/ExposureTimeus/标定.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest1_10.96/10.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest1_10.96/100.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest1_10.96/20.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest1_10.96/50.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest1_10.96/Result of 10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest1_10.96/Result of 100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest1_10.96/Result of 20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest1_10.96/Result of 50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest1_10.96/origin/Image_20231102151340272.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest1_10.96/origin/脏印-10um-20um-0.01精度.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest1_10.96/origin/脏印-50um-100um-0.01精度.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest2_8.7/10.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest2_8.7/100.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest2_8.7/20.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest2_8.7/50.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest2_8.7/Result of 10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest2_8.7/Result of 100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest2_8.7/Result of 20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest2_8.7/Result of 50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest2_8.7/origin/26现场样本-0.008精度.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest2_8.7/origin/Image_20231102170035540.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest2_8.7/origin/脏印100um-压力.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest2_8.7/origin/脏印10um-压力-2.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest2_8.7/origin/脏印10um-压力.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest2_8.7/origin/脏印20um-压力.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest2_8.7/origin/脏印50um-压力.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest3_9.84/10.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest3_9.84/100.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest3_9.84/20.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest3_9.84/50.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest3_9.84/PreProcessed1/10.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest3_9.84/PreProcessed1/100.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest3_9.84/PreProcessed1/20.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest3_9.84/PreProcessed1/50.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest3_9.84/PreProcessed2/10.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest3_9.84/PreProcessed2/100.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest3_9.84/PreProcessed2/20.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest3_9.84/PreProcessed2/50.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest3_9.84/Result of 10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest3_9.84/Result of 100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest3_9.84/Result of 20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest3_9.84/Result of 50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest3_9.84/origin/100um-夹板加按压-平行光.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest3_9.84/origin/10um-夹板-平行光-激光笔.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest3_9.84/origin/10um-夹板-平行光.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest3_9.84/origin/10um-夹板-非平行光.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest3_9.84/origin/10um-夹板加按压-小平行光.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest3_9.84/origin/10um-夹板加按压-平行光.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest3_9.84/origin/10um-夹板加按压-非平行光.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest3_9.84/origin/20um-夹板加按压-平行光.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest3_9.84/origin/50um-夹板加按压-平行光.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest3_9.84/origin/Image_20231106220659581.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest4_8.70/10.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest4_8.70/100.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest4_8.70/20.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest4_8.70/50.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest4_8.70/Area Result of 10.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest4_8.70/Area Result of 100.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest4_8.70/Area Result of 20.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest4_8.70/Area Result of 50.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest4_8.70/Cropped_10.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest4_8.70/Cropped_20.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest4_8.70/Intensity Profile_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest4_8.70/Intensity Profile_20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest4_8.70/Result of 10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest4_8.70/Result of 100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest4_8.70/Result of 20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest4_8.70/Result of 50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest4_8.70/origin/100um-未使用夹板-两端提起向内夹-平行光.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest4_8.70/origin/10um-未使用夹板-两端提起向内夹-平行光-异色点样本.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest4_8.70/origin/10um-未使用夹板-两端提起向内夹-平行光.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest4_8.70/origin/20um-未使用夹板-两端提起向内夹-平行光.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest4_8.70/origin/50um-未使用夹板-两端提起向内夹-平行光.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest4_8.70/origin/Image_20231107142024552.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest5_8.65/10.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest5_8.65/100.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest5_8.65/20.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest5_8.65/50.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest5_8.65/Result of 10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest5_8.65/Result of 100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest5_8.65/Result of 20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest5_8.65/Result of 50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest5_8.65/origin/10-origin.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest5_8.65/origin/10.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest5_8.65/origin/100.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest5_8.65/origin/20.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest5_8.65/origin/50.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest5_8.65/origin/Image_20231107174621539.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest6_8.54/10.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest6_8.54/100.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest6_8.54/20.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest6_8.54/50.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest6_8.54/Area Result of 10.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest6_8.54/Area Result of 100.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest6_8.54/Area Result of 20.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest6_8.54/Area Result of 50.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest6_8.54/Cropped_10.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest6_8.54/Cropped_20.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest6_8.54/Intensity Profile_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest6_8.54/Intensity Profile_20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest6_8.54/Result of 10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest6_8.54/Result of 100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest6_8.54/Result of 20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest6_8.54/Result of 50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest6_8.54/origin/100um.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest6_8.54/origin/10um.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest6_8.54/origin/20um.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest6_8.54/origin/45mm-5270pixel.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest6_8.54/origin/50um.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest6_8.54/origin/Image_20231108171535815.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest7_8.54/45mm-5270pixel.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest7_8.54/B3.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest7_8.54/B5.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest7_8.54/B6.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest7_8.54/B8.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest7_8.54/K1.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest7_8.54/K2.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest7_8.54/K3.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest7_8.54/K4.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest7_8.54/K5.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest7_8.54/K6.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest7_8.54/K7.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest7_8.54/K8.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/HighPrecisionTest7_8.54/Z6-右上角两个小孔重叠.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/LowPrecisionTest1_74.24/10.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/LowPrecisionTest1_74.24/100.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/LowPrecisionTest1_74.24/20.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/LowPrecisionTest1_74.24/50.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/LowPrecisionTest1_74.24/Area Result of 10.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/LowPrecisionTest1_74.24/Area Result of 100.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/LowPrecisionTest1_74.24/Area Result of 20.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/LowPrecisionTest1_74.24/Area Result of 50.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/LowPrecisionTest1_74.24/Result of 10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/LowPrecisionTest1_74.24/Result of 100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/LowPrecisionTest1_74.24/Result of 20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/LowPrecisionTest1_74.24/Result of 50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/LowPrecisionTest1_74.24/origin/Image_20231107181206629.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/LowPrecisionTest1_74.24/origin/Image_20231107181437558.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/LowPrecisionTest1_74.24/origin/Image_20231107181437558_100_Cropped.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/LowPrecisionTest1_74.24/origin/Image_20231107181437558_10_Cropped.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/LowPrecisionTest1_74.24/origin/Image_20231107181437558_20_Cropped.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/LowPrecisionTest1_74.24/origin/Image_20231107181437558_50_Cropped.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest1_14.98/10.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest1_14.98/100.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest1_14.98/20.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest1_14.98/50.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest1_14.98/Result of 10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest1_14.98/Result of 100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest1_14.98/Result of 20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest1_14.98/Result of 50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest1_14.98/origin/10.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest1_14.98/origin/100.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest1_14.98/origin/20.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest1_14.98/origin/50.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest1_14.98/origin/79mm-5275pixel-14.98精度.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest2_22.85/10.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest2_22.85/100.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest2_22.85/20.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest2_22.85/50.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest2_22.85/Area Result of 10.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest2_22.85/Area Result of 100.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest2_22.85/Area Result of 20.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest2_22.85/Area Result of 50.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest2_22.85/Cropped_10.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest2_22.85/Cropped_20.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest2_22.85/Intensity Profile_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest2_22.85/Intensity Profile_20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest2_22.85/Result of 10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest2_22.85/Result of 100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest2_22.85/Result of 20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest2_22.85/Result of 50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest2_22.85/origin/-2 -1 0.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest2_22.85/origin/10.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest2_22.85/origin/100.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest2_22.85/origin/100_Cropped.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest2_22.85/origin/10_Cropped.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest2_22.85/origin/120mm-5252pixel-精度22.85.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest2_22.85/origin/20.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest2_22.85/origin/20_Cropped.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest2_22.85/origin/50.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest2_22.85/origin/50_Cropped.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest3_14.66/10.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest3_14.66/100.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest3_14.66/20.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest3_14.66/50.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest3_14.66/Area Result of 10.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest3_14.66/Area Result of 100.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest3_14.66/Area Result of 20.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest3_14.66/Area Result of 50.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest3_14.66/Cropped_10.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest3_14.66/Cropped_20.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest3_14.66/Intensity Profile_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest3_14.66/Intensity Profile_20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest3_14.66/Result of 10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest3_14.66/Result of 100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest3_14.66/Result of 20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest3_14.66/Result of 50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest3_14.66/origin/10.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest3_14.66/origin/100.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest3_14.66/origin/20.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest3_14.66/origin/50.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/MediumPrecisionTest3_14.66/origin/80mm=5456pixel-14.66精度.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat1_10.20/10.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat1_10.20/100.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat1_10.20/20.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat1_10.20/50.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat1_10.20/Area Result of 10.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat1_10.20/Area Result of 100.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat1_10.20/Area Result of 20.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat1_10.20/Area Result of 50.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat1_10.20/Cropped_10.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat1_10.20/Cropped_20.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat1_10.20/Intensity Profile_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat1_10.20/Intensity Profile_20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat1_10.20/Result of 10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat1_10.20/Result of 100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat1_10.20/Result of 20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat1_10.20/Result of 50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat1_10.20/origin/10.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat1_10.20/origin/100.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat1_10.20/origin/100_Cropped.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat1_10.20/origin/10_Cropped.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat1_10.20/origin/20.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat1_10.20/origin/20_Cropped.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat1_10.20/origin/50.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat1_10.20/origin/50_Cropped.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat1_10.20/origin/55mm-5394pixel-10.20精度.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat2_16.24/10.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat2_16.24/100.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat2_16.24/20.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat2_16.24/50.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat2_16.24/Area Result of 10.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat2_16.24/Area Result of 100.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat2_16.24/Area Result of 20.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat2_16.24/Area Result of 50.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat2_16.24/None_Gamma/10.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat2_16.24/None_Gamma/100.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat2_16.24/None_Gamma/20.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat2_16.24/None_Gamma/50.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat2_16.24/Result of 10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat2_16.24/Result of 100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat2_16.24/Result of 20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat2_16.24/Result of 50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat2_16.24/origin/10.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat2_16.24/origin/100.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat2_16.24/origin/100_Cropped.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat2_16.24/origin/10_2.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat2_16.24/origin/10_Cropped.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat2_16.24/origin/16.24精度.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat2_16.24/origin/20.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat2_16.24/origin/20_Cropped.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat2_16.24/origin/50.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat2_16.24/origin/50_Cropped.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat3_20.85/10.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat3_20.85/100.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat3_20.85/20.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat3_20.85/50.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat3_20.85/Area Result of 10.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat3_20.85/Area Result of 10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat3_20.85/Area Result of 100.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat3_20.85/Area Result of 100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat3_20.85/Area Result of 20.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat3_20.85/Area Result of 20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat3_20.85/Area Result of 50.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat3_20.85/Area Result of 50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat3_20.85/Cropped_10.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat3_20.85/Cropped_20.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat3_20.85/Intensity Profile_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat3_20.85/Intensity Profile_20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat3_20.85/Result of 10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat3_20.85/Result of 100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat3_20.85/Result of 20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat3_20.85/Result of 50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat3_20.85/origin/10.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat3_20.85/origin/100_Cropped.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat3_20.85/origin/10_20.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat3_20.85/origin/10_Cropped.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat3_20.85/origin/20.85精度.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat3_20.85/origin/20_Cropped.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat3_20.85/origin/50_100.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat3_20.85/origin/50_Cropped.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat4_36.64/10.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat4_36.64/100.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat4_36.64/20.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat4_36.64/50.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat4_36.64/Area Result of 10.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat4_36.64/Area Result of 100.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat4_36.64/Area Result of 20.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat4_36.64/Area Result of 50.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat4_36.64/Cropped_10.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat4_36.64/Cropped_20.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat4_36.64/Intensity Profile_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat4_36.64/Intensity Profile_20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat4_36.64/Result of 10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat4_36.64/Result of 100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat4_36.64/Result of 20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat4_36.64/Result of 50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat4_36.64/origin/10.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat4_36.64/origin/100.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat4_36.64/origin/100_Cropped.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat4_36.64/origin/10_Cropped.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat4_36.64/origin/20.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat4_36.64/origin/20_50.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat4_36.64/origin/20_Cropped.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat4_36.64/origin/36.64.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat4_36.64/origin/50.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/ZZMImgs/Repeat4_36.64/origin/50_Cropped.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExperimentAnalysis.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GammaTransForAFolder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ImagingSystemSimulation/NoCamera.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ImagingSystemSimulation/SimulationCamera.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ImagingSystemSimulation/WholeSystem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ImagingSystemSimulation/pinhole.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Outputs/可靠实验数据分析 孔直径-尺度放大倍率 关系.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Outputs/可靠实验数据分析 孔直径-成像面积 关系.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Outputs/可靠实验数据分析 孔直径-拟合系数 关系.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Outputs/可靠实验数据分析 孔直径-拟合系数-2.4um 关系.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Outputs/可靠实验数据分析 成像距离-尺度放大倍率 关系.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Outputs/可靠实验数据分析 成像距离-尺度放大倍率-2.4um 关系.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Outputs/可靠实验数据分析 成像距离-成像面积 关系.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Outputs/可靠实验数据分析 成像距离-成像面积-2.4um 关系.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Outputs/可靠实验数据分析 成像距离-整体光斑等效直径-2.4um 关系.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Outputs/可靠实验数据分析-2.4um 孔直径-尺度放大倍率 关系.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Outputs/可靠实验数据分析-2.4um 孔直径-成像面积 关系.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Outputs/可靠实验数据分析-2.4um 孔直径-整体光斑等效直径 关系.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Outputs/验证裁剪是否需要重做 孔直径-尺度放大倍率 关系.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Outputs/验证裁剪是否需要重做 孔直径-成像面积 关系.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PyPROPER3.egg-info/PKG-INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PyPROPER3.egg-info/SOURCES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PyPROPER3.egg-info/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PyPROPER3.egg-info/requires.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PyPROPER3.egg-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ResultImages_t10/Area Result of Gaussian_laplacian.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ResultImages_t10/Cropped+laplacian.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ResultImages_t10/Gaussian_laplacian.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ResultImages_t10/Result of Gaussian_laplacian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ResultImages_t10/cropped_10um_70000us.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ResultImages_t10/laplacian.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ResultImages_t10/laplacian_Gaussian.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ResultImages_t10/test1pixel.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ResultImages_t10/test70000.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ResultImages_t10/testtest1pixel.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StatisticalAnalysis.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/cubic_conv_c.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/cubic_conv_threaded_c.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/examples/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/examples/coronagraph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/examples/coronagraph_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/examples/example_system.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/examples/hubble_simple.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/examples/microscope.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/examples/multi_example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/examples/occulter_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/examples/psdtest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/examples/run_coronagraph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/examples/run_coronagraph_dm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/examples/run_example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/examples/run_occulter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/examples/simple_prescription.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/examples/simple_telescope.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/examples/talbot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/examples/talbot_correct.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/examples/talbot_correct_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/examples/talbot_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/examples/telescope.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/examples/telescope_dm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/examples/testmulti1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/examples/testmulti2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/influence_dm5v2_1.fits" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/libcconv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/libcconvthread.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/libszoom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_8th_order_mask.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_add_phase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_add_wavefront.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_begin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_circular_aperture.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_circular_obscuration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_compile_c.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_cubic_conv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_define_entrance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_dftidefs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_divide.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_dm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_ellipse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_elliptical_aperture.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_elliptical_obscuration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_end.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_end_savestate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_errormap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_execute_multi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_ffti.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_fftw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_fftw_wisdom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_fit_dm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_fit_zernikes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_fits_read.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_fits_write.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_get_amplitude.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_get_beamradius.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_get_distancetofocus.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_get_fratio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_get_gridsize.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_get_nyquistsampling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_get_phase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_get_refradius.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_get_sampling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_get_sampling_arcsec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_get_sampling_radians.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_get_wavefront.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_get_wavelength.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_get_z.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_hex_wavefront.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_hex_zernikes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_init_savestate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_irregular_polygon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_is_statesaved.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_lens.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_load_fftw_wisdom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_magnify.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_multiply.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_noll_zernikes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_pixellate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_polygon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_print_zernikes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_propagate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_psd_errormap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_ptp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_qphase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_radius.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_readmap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_rectangle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_rectangular_aperture.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_rectangular_obscuration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_resamplemap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_rotate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_rounded_rectangle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_run_multi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_savestate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_select_propagator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_set_antialiasing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_shift_center.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_sinc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_state.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_stw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_szoom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_szoom_c.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_table.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_use_ffti.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_use_fftw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_wavefront.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_writemap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_wts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/prop_zernikes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/proper/switch_set.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cropped_10um_70000us.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/PyPROPER3-3.2.7-py3.9.egg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/draft.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fortest.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laplace.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laplacian_cropped_10um_70000us.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mypackages/SingleExperimentAnalysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mypackages/SingleImageAnalysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mypackages/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mypackages/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mypackages/gamma.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mypackages/uniformity_correction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mypackages/visualization3D.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plot_diameter_magnification.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plot_distance_magnification.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plot_precision_magnification.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/PROPER_manual_v3.2.7.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/cubic_conv_c.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/cubic_conv_threaded_c.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/examples/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/examples/coronagraph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/examples/coronagraph_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/examples/example_system.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/examples/hubble_simple.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/examples/microscope.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/examples/multi_example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/examples/occulter_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/examples/psdtest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/examples/run_coronagraph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/examples/run_coronagraph_dm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/examples/run_example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/examples/run_occulter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/examples/simple_prescription.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/examples/simple_telescope.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/examples/talbot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/examples/talbot_correct.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/examples/talbot_correct_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/examples/talbot_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/examples/telescope.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/examples/telescope_dm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/examples/testmulti1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/examples/testmulti2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/influence_dm5v2_1.fits" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/libcconv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/libcconvthread.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/libszoom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_8th_order_mask.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_add_phase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_add_wavefront.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_begin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_circular_aperture.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_circular_obscuration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_compile_c.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_cubic_conv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_define_entrance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_dftidefs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_divide.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_dm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_ellipse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_elliptical_aperture.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_elliptical_obscuration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_end.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_end_savestate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_errormap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_execute_multi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_ffti.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_fftw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_fftw_wisdom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_fit_dm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_fit_zernikes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_fits_read.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_fits_write.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_get_amplitude.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_get_beamradius.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_get_distancetofocus.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_get_fratio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_get_gridsize.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_get_nyquistsampling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_get_phase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_get_refradius.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_get_sampling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_get_sampling_arcsec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_get_sampling_radians.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_get_wavefront.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_get_wavelength.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_get_z.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_hex_wavefront.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_hex_zernikes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_init_savestate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_irregular_polygon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_is_statesaved.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_lens.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_load_fftw_wisdom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_magnify.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_multiply.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_noll_zernikes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_pixellate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_polygon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_print_zernikes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_propagate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_psd_errormap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_ptp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_qphase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_radius.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_readmap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_rectangle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_rectangular_aperture.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_rectangular_obscuration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_resamplemap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_rotate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_rounded_rectangle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_run_multi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_savestate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_select_propagator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_set_antialiasing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_shift_center.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_sinc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_state.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_stw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_szoom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_szoom_c.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_table.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_use_ffti.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_use_fftw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_wavefront.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_writemap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_wts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/prop_zernikes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proper/switch_set.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simulation.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simulation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/t1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/t11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/t2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/t3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/t4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/t5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/t6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/t7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/t8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/图片存档/可靠实验数据分析 孔直径-尺度放大倍率 关系.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/图片存档/可靠实验数据分析 孔直径-成像面积 关系.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/图片存档/可靠实验数据分析.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/图片存档/孔直径-尺度放大倍率 关系.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/图片存档/孔直径-成像面积 关系.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/图片存档/成像面积-成像距离（可靠实验数据分析）.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/图片存档/放大倍率-孔直径关系（中精度）.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/图片存档/放大倍率-孔直径关系（低精度）.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/图片存档/放大倍率-孔直径关系（重复实验）.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/图片存档/放大倍率-孔直径关系（高精度）.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/图片存档/放大倍率-成像距离（原始数据）.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/图片存档/放大倍率-成像距离（可靠实验数据分析）.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/图片存档/放大倍率-精度（Z-score剔除异常据）.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/图片存档/放大倍率-精度（原始数据）.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/图片存档/放大倍率与物料-镜头距离关系.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/图片存档/重复实验数据分析.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/图片存档/高精度实验数据分析.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/放大倍率计算结果.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/计算结果.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t10.py" beforeDir="false" afterPath="$PROJECT_DIR$/t10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t12.py" beforeDir="false" afterPath="$PROJECT_DIR$/t12.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t9.py" beforeDir="false" afterPath="$PROJECT_DIR$/t9.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +774,12 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://D:/Softwares/Development/anaconda3/envs/zzm/Lib/site-packages/IPython/core/interactiveshell.py" root0="SKIP_INSPECTION" />
     <setting file="file://D:/Softwares/Development/anaconda3/envs/zzm/Lib/site-packages/cv2/__init__.pyi" root0="SKIP_INSPECTION" />
   </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -74,9 +796,12 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Python.t12.executor&quot;: &quot;Run&quot;,
+    &quot;Python.t7.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
@@ -86,32 +811,33 @@
     &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
     &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
     &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/WPSSync/Projects/SimulationForPinhole&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/WPSSync/Projects/SimulationForPinhole/Dataset/Regression&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\WPSSync\Projects\SimulationForPinhole\Dataset\Regression" />
       <recent name="E:\WPSSync\Projects\SimulationForPinhole" />
       <recent name="D:\Projects\Python\SimulationForPinhole\originImgs\sample3" />
       <recent name="D:\Projects\Python\SimulationForPinhole\PinholeImgDataset\tiny" />
       <recent name="D:\Projects\Python\SimulationForPinhole\PinholeImgDataset" />
-      <recent name="D:\Projects\Python\SimulationForPinhole\originImgs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\WPSSync\Projects\SimulationForPinhole\mypackages" />
       <recent name="D:\Projects\Python\SimulationForPinhole" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.t10">
+  <component name="RunManager" selected="Python.t12">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="SimulationForPinhole" />
       <option name="ENV_FILES" value="" />
@@ -127,29 +853,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="plot_diameter_magnification" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SimulationForPinhole" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plot_diameter_magnification.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -204,7 +907,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="t6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="t12" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SimulationForPinhole" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -218,7 +921,30 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/t6.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/t12.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="t7" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SimulationForPinhole" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/t7.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -252,11 +978,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.t12" />
+        <item itemvalue="Python.t7" />
         <item itemvalue="Python.t10" />
         <item itemvalue="Python.t9" />
         <item itemvalue="Python.plot_distance_magnification" />
-        <item itemvalue="Python.plot_diameter_magnification" />
-        <item itemvalue="Python.t6" />
       </list>
     </recent_temporary>
   </component>
@@ -304,6 +1030,14 @@
       <workItem from="1703316207782" duration="641000" />
       <workItem from="1703317371761" duration="3690000" />
       <workItem from="1703474059109" duration="18000" />
+      <workItem from="1703488034159" duration="868000" />
+      <workItem from="1703488910704" duration="5000" />
+      <workItem from="1703488924259" duration="1573000" />
+      <workItem from="1703490508490" duration="69000" />
+      <workItem from="1703490583659" duration="14951000" />
+      <workItem from="1704181419959" duration="1381000" />
+      <workItem from="1704337904758" duration="2644000" />
+      <workItem from="1704341276970" duration="2398000" />
     </task>
     <servers />
   </component>
@@ -341,7 +1075,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
           <url>notebook://E:/WPSSync/Projects/SimulationForPinhole/fortest.ipynb</url>
-          <line>56</line>
+          <line>58</line>
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
@@ -366,7 +1100,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/mypackages/SingleImageAnalysis.py</url>
-          <line>108</line>
+          <line>142</line>
           <option name="timeStamp" value="58" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
@@ -381,18 +1115,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/mypackages/SingleExperimentAnalysis.py</url>
-          <line>34</line>
+          <line>43</line>
           <option name="timeStamp" value="72" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/mypackages/SingleImageAnalysis.py</url>
-          <line>76</line>
+          <line>106</line>
           <option name="timeStamp" value="79" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/mypackages/SingleImageAnalysis.py</url>
-          <line>69</line>
-          <option name="timeStamp" value="82" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/t8.py</url>
@@ -406,12 +1135,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/mypackages/SingleImageAnalysis.py</url>
-          <line>40</line>
+          <line>44</line>
           <option name="timeStamp" value="97" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/plot_distance_magnification.py</url>
-          <line>85</line>
+          <line>104</line>
           <option name="timeStamp" value="105" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
@@ -444,6 +1173,11 @@
           <line>70</line>
           <option name="timeStamp" value="130" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/t12.py</url>
+          <line>205</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-defaults>
         <breakpoint type="python-line" />
@@ -463,26 +1197,27 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/SimulationForPinhole$plot_diameter_magnification__1_.coverage" NAME="plot_diameter_magnification (1) 覆盖结果" MODIFIED="1700209960466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/SimulationForPinhole$t3.coverage" NAME="t3 覆盖结果" MODIFIED="1700125320397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/SimulationForPinhole$WholeSystem.coverage" NAME="WholeSystem 覆盖结果" MODIFIED="1700545745263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SimulationForPinhole$SingleImageAnalysis.coverage" NAME="SingleImageAnalysis 覆盖结果" MODIFIED="1700120485083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mypackages" />
-    <SUITE FILE_PATH="coverage/SimulationForPinhole$polt_precision.coverage" NAME="polt_precision 覆盖结果" MODIFIED="1700046632072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/SimulationForPinhole$config.coverage" NAME="config 覆盖结果" MODIFIED="1700119020057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mypackages" />
-    <SUITE FILE_PATH="coverage/SimulationForPinhole$t6.coverage" NAME="t6 覆盖结果" MODIFIED="1700466838455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/SimulationForPinhole$t1.coverage" NAME="t1 覆盖结果" MODIFIED="1699859733862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SimulationForPinhole$pinhole.coverage" NAME="pinhole 覆盖结果" MODIFIED="1697707996016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/SimulationForPinhole$plot_diameter_magnification.coverage" NAME="plot_diameter_magnification 覆盖结果" MODIFIED="1700747387140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SimulationForPinhole$WholeSystem.coverage" NAME="WholeSystem 覆盖结果" MODIFIED="1700545745263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SimulationForPinhole$t6.coverage" NAME="t6 覆盖结果" MODIFIED="1700466838455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SimulationForPinhole$polt_precision.coverage" NAME="polt_precision 覆盖结果" MODIFIED="1700046632072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SimulationForPinhole$t1.coverage" NAME="t1 覆盖结果" MODIFIED="1699859733862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SimulationForPinhole$SimulationCamera.coverage" NAME="SimulationCamera 覆盖结果" MODIFIED="1700453646168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SimulationForPinhole$plot_diameter_magnification__1_.coverage" NAME="plot_diameter_magnification (1) 覆盖结果" MODIFIED="1700209960466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SimulationForPinhole$t9.coverage" NAME="t9 覆盖结果" MODIFIED="1702865482041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/SimulationForPinhole$main.coverage" NAME="main 覆盖结果" MODIFIED="1697698686535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SimulationForPinhole$t12.coverage" NAME="t12 覆盖结果" MODIFIED="1704165644943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SimulationForPinhole$config.coverage" NAME="config 覆盖结果" MODIFIED="1700119020057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mypackages" />
     <SUITE FILE_PATH="coverage/SimulationForPinhole$Main.coverage" NAME="plot_diameter_magnification 覆盖结果" MODIFIED="1700205779896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/SimulationForPinhole$t10.coverage" NAME="t10 覆盖结果" MODIFIED="1703216125821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SimulationForPinhole$main.coverage" NAME="main 覆盖结果" MODIFIED="1697698686535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SimulationForPinhole$t5.coverage" NAME="t5 覆盖结果" MODIFIED="1699707275583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SimulationForPinhole$plot_distance_magnification.coverage" NAME="plot_distance_magnification 覆盖结果" MODIFIED="1700748339676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SimulationForPinhole$SingleExperimentAnalysis.coverage" NAME="SingleExperimentAnalysis 覆盖结果" MODIFIED="1700202081537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mypackages" />
-    <SUITE FILE_PATH="coverage/SimulationForPinhole$t5.coverage" NAME="t5 覆盖结果" MODIFIED="1699707275583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SimulationForPinhole$t2.coverage" NAME="t2 覆盖结果" MODIFIED="1700653800685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/SimulationForPinhole$simulation.coverage" NAME="simulation 覆盖结果" MODIFIED="1698039219303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SimulationForPinhole$t8.coverage" NAME="t8 覆盖结果" MODIFIED="1700571276406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/SimulationForPinhole$SimulationCamera.coverage" NAME="SimulationCamera 覆盖结果" MODIFIED="1700453646168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SimulationForPinhole$simulation.coverage" NAME="simulation 覆盖结果" MODIFIED="1698039219303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SimulationForPinhole$t10.coverage" NAME="t10 覆盖结果" MODIFIED="1703216125821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SimulationForPinhole$plot_diameter_magnification.coverage" NAME="plot_diameter_magnification 覆盖结果" MODIFIED="1700747387140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SimulationForPinhole$t3.coverage" NAME="t3 覆盖结果" MODIFIED="1700125320397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
