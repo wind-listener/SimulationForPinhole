@@ -9,9 +9,11 @@ Description: 验证Laplace算子效果
 Copyright (c) 2023 by ${git_name_email}, All Rights Reserved. 
 """
 import os
+
 import cv2
 import numpy as np
-from mypackages.config import DEBUG
+
+from utils.config import DEBUG
 
 # # ————————————————————————————————————————————————————————————————
 # # 构建一个255*255大小的8bit灰度图，并在中心设置一个灰度值为255的像素

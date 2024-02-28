@@ -1,5 +1,4 @@
-
-from mypackages.SingleImageAnalysis import SingleImageAnalysis
+from utils.SingleImageAnalysis import SingleImageAnalysis
 
 
 # image_path = 'Dataset/ZZMImgs/HighPrecisionTest5_8.65/10um.bmp'

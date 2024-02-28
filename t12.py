@@ -16,9 +16,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 from PIL import Image
 
-from mypackages.config import *
-from mypackages.gamma import gamma_correction
-from mypackages.visualization3D import visualize_3d_array
+from utils.config import *
+from utils.gamma import gamma_correction
+from utils.visualization3D import visualize_3d_array
 
 
 def find_bright_regions(image, attribute_dict, isLoG=1, isGamma=0.5, isMorphology=0):
