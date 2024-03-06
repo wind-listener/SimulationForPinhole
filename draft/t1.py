@@ -1,3 +1,9 @@
+'''
+Date: 2023-11-13 15:00:22
+LastEditors: wind-listener 2775174829@qq.com
+LastEditTime: 2024-03-06 21:33:11
+FilePath: \SimulationForPinhole\draft\t1.py
+'''
 import pandas as pd
 from matplotlib import pyplot as plt
 
