@@ -1,3 +1,9 @@
+# '''
+# Date: 2024-03-05 19:23:32
+# LastEditors: wind-listener 2775174829@qq.com
+# LastEditTime: 2024-03-06 21:51:51
+# FilePath: \SimulationForPinhole\utils\findBrightRegions.py
+# '''
 import cv2
 import matplotlib.pyplot as plt
 import numpy as np
@@ -14,7 +20,7 @@ def findBrightRegions(image, filename, attribute_dict, isLoG=1, isGamma=0.5, Mor
     # 执行 LoG 边缘检测：将图像进行高斯模糊处理，然后应用拉普拉斯算子进行边缘检测
     if isLoG:
         image_name = "Gaussian_laplacian"
-        image_smoothed = cv2.GaussianBlur(image, (7, 7), 0)
+        image_smoothed = cv2.GaussianBlur(image, (3, 3), 0)
         laplacian_operator = np.array([[-1, -1, -1], [-1, 8, -1], [-1, -1, -1]])
         Gaussian_laplacian = image_smoothed - cv2.Laplacian(
             image_smoothed, cv2.CV_64F, laplacian_operator
@@ -28,7 +34,7 @@ def findBrightRegions(image, filename, attribute_dict, isLoG=1, isGamma=0.5, Mor
         elif ET < 10000:
             isGamma = 0.4
         else:
-            isGamma = 1
+            isGamma = 0.01
         image = gamma_correction(image, isGamma)  # 拉伸亮度
         if DEBUG:
             suptitle1 = filename + f" image after Gamma Trans(Gamma:{isGamma})"
@@ -50,7 +56,7 @@ def findBrightRegions(image, filename, attribute_dict, isLoG=1, isGamma=0.5, Mor
             # 开运算 去除噪点
             # 闭运算 联通区域
             # 如果本来成像就小的话，应该采用最小的核
-            radius = 1  # 开运算的核 圆形的半径 过滤直径为6以下的圆形噪点
+            radius = 1  # 开运算的核 圆形的半径 过滤直径为2 * radius + 1以下的圆形噪点
             kernel = cv2.getStructuringElement(
                 cv2.MORPH_ELLIPSE, (int(2 * radius + 1), int(2 * radius + 1))
             )

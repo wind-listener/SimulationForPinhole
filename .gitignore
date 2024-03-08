@@ -80,3 +80,6 @@ dmypy.json
 *.swp
 *.log
 Dataset/
+PinholePrediction/*/models
+PinholePrediction/*/Dataset
+*wandb
