@@ -1,6 +1,13 @@
 """
 Date: 2024-01-04 13:57:12
 LastEditors: wind-listener 2775174829@qq.com
+LastEditTime: 2024-03-19 12:47:25
+FilePath: \PinholeAnalysis\PinholePrediction\MLP\train.py
+"""
+
+"""
+Date: 2024-01-04 13:57:12
+LastEditors: wind-listener 2775174829@qq.com
 LastEditTime: 2024-03-09 20:11:20
 FilePath: \PinholeAnalysis\PinholePrediction\MLP\train.py
 """
@@ -14,7 +21,7 @@ import joblib
 from datetime import datetime
 
 # 读取CSV文件
-data = pd.read_csv("Dataset/annotation2.csv")
+data = pd.read_csv("Dataset/annotation3.csv")
 
 # 提取特征和标签
 X = data.drop(columns=["ImageID", "Xcoordinate", "Ycoordinate", "Diameter"])
@@ -43,7 +50,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 
 # 创建MLP回归模型
 mlp = MLPRegressor(
-    hidden_layer_sizes=(64, 32, 16, 8),
+    hidden_layer_sizes=(128, 128, 128, 128, 64, 64, 64, 64, 32, 16, 8),
     max_iter=2000,
     random_state=42,
     learning_rate="adaptive",
@@ -67,3 +74,4 @@ current_time = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
 # 构建带有时间戳的文件名
 model_filename = f"models/mlp_model_{current_time}.pkl"
 joblib.dump(mlp, model_filename)
+print(f"model has been saved as {model_filename}")

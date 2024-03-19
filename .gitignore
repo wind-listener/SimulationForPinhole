@@ -82,4 +82,5 @@ dmypy.json
 Dataset/
 PinholePrediction/*/models
 PinholePrediction/*/Dataset
+PinholePrediction/*/predictions
 *wandb
