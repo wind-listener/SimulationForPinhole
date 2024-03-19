@@ -1,20 +1,11 @@
-'''
-Date: 2024-01-04 13:55:44
-LastEditors: wind-listener 2775174829@qq.com
-LastEditTime: 2024-03-06 22:52:27
-FilePath: \PinholeAnalysis\PinholePrediction\MLP\predict.py
-'''
+# '''
+# Date: 2024-01-04 13:55:44
+# LastEditors: wind-listener 2775174829@qq.com
+# LastEditTime: 2024-03-06 22:52:27
+# FilePath: \PinholeAnalysis\PinholePrediction\MLP\predict.py
+# '''
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
-"""
-@Project  ：PinholeRegression 
-@File     ：predict.py
-@IDE      ：PyCharm 
-@Author   ：user
-@Email    : zzm_ai@bupt.edu.cn
-@Date     ：2024/1/2 16:24 
-@Function ：针对annotation，只时候MLP实验能不能完成回归
-"""
 import os
 
 import pandas as pd
@@ -22,8 +13,11 @@ import numpy as np
 from sklearn.preprocessing import StandardScaler
 import joblib
 
+csv_path = 'Dataset/annotation2.csv'
+model_path = 'models/mlp_model_2024-03-09_20-21-43.pkl'
+
 # 读取CSV文件
-data = pd.read_csv('Dataset/annotation2.csv')
+data = pd.read_csv(csv_path)
 
 # 提取特征
 X = data.drop(columns=['ImageID', 'Xcoordinate', 'Ycoordinate', 'Diameter'])
@@ -33,7 +27,6 @@ scaler = StandardScaler()
 X_scaled = scaler.fit_transform(X)
 
 # 加载训练好的MLP模型
-model_path = 'models/mlp_model_2024-03-06_22-47-00.pkl'
 mlp = joblib.load(model_path)
 
 # 进行预测
